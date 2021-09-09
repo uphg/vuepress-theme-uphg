@@ -62,13 +62,13 @@ module.exports = (options, ctx) => {
       }],
       ['smooth-scroll', enableSmoothScroll]
     ],
-    markdown: {
-      /** @param {import('markdown-it')} md */
-      extendMarkdown: md => {
-        md.options.highlight = require('./markdown/highlight')(
-          md.options.highlight
-        )
-      }
-    }
+    // markdown: {
+    //   /** @param {import('markdown-it')} md */
+    //   extendMarkdown: md => {
+    //     md.options.highlight = require('./markdown/highlight')(
+    //       md.options.highlight
+    //     )
+    //   }
+    // }
   }
 }
