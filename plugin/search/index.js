@@ -2,8 +2,7 @@ const { path } = require('@vuepress/shared-utils')
 
 module.exports = (options) => ({
   alias: {
-    '@SearchBox':
-      path.resolve(__dirname, 'SearchBox.vue')
+    '@SearchBox': path.resolve(__dirname, 'SearchBox.vue')
   },
 
   define: {

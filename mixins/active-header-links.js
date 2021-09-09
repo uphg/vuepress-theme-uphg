@@ -1,6 +1,4 @@
 import debounce from 'lodash.debounce'
-// const AHL_SIDEBAR_LINK_SELECTOR = '.sidebar-link'
-// const AHL_HEADER_ANCHOR_SELECTOR = '.header-anchor'
 const AHL_SIDEBAR_LINK_SELECTOR = '.synopsis-link'
 const AHL_HEADER_ANCHOR_SELECTOR = '.header-anchor'
 

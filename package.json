@@ -1,6 +1,6 @@
 {
   "name": "vuepress-theme-uphg",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Docs theme for VuePress",
   "keywords": [
     "documentation",
@@ -20,18 +20,16 @@
   "author": "upheng",
   "main": "index.js",
   "dependencies": {
-    "@vuepress/plugin-active-header-links": "1.8.2",
     "@vuepress/plugin-nprogress": "1.8.2",
     "@vuepress/plugin-search": "1.8.2",
     "docsearch.js": "^2.5.2",
+    "dayjs": "^1.10.5",
     "lodash": "^4.17.15",
+    "medium-zoom": "^1.0.6",
+    "resize-observer-polyfill": "^1.5.1",
     "stylus": "^0.54.8",
     "stylus-loader": "^3.0.2",
-    "vuepress-plugin-container": "^2.0.2",
-    "vuepress-plugin-smooth-scroll": "^0.0.3",
-    "dayjs": "^1.10.5",
-    "medium-zoom": "^1.0.6",
-    "resize-observer-polyfill": "^1.5.1"
+    "vuepress-plugin-container": "^2.0.2"
   },
   "publishConfig": {
     "access": "public"
