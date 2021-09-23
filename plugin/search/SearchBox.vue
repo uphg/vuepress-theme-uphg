@@ -262,8 +262,6 @@ export default {
 
     &.focused {
       // box-shadow: 0 0 0 2px rgba(37, 184, 100, 0.2);
-      box-shadow: 0 0 0 2px darken($borderColor, 20%);
-      // box-shadow: 0 0 0 2px rgba(37, 184, 100, 0.2);
     }
   }
 
